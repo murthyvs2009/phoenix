@@ -46,6 +46,8 @@ $buttonVal='<a href="cms_view.php?addPage=TRUE"><img src="inc/img/pageadd.png" s
               $txtFileName=$_SESSION['getFileName'];
               $filename = CMSCONTENT.$txtFileName;
              // echo "<pre>";
+      
+
               echo readTextfile($filename);
               //echo "</pre>";
               }
@@ -63,6 +65,7 @@ $buttonVal='<a href="cms_view.php?addPage=TRUE"><img src="inc/img/pageadd.png" s
               </div>        
               </form>
               </div>
+    
         </div>
         <div id="del" class="tab-pane fade">
             <div class="panel panel-danger">
